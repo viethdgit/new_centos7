@@ -4,7 +4,7 @@
 \cp conf/selinux /etc/sysconfig/selinux
 \cp conf/sysctl.conf /etc/sysctl.conf
 \cp conf/rc.local /etc/rc.d/rc.local
-\cp conf/os/cron.allow /etc/cron.allow
+\cp conf/cron.allow /etc/cron.allow
 
 yum install epel-release ntpdate iptables-services net-tools wget -y
 
